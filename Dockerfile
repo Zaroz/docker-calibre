@@ -4,8 +4,8 @@ FROM ghcr.io/linuxserver/baseimage-guacgui
 ARG BUILD_DATE
 ARG VERSION
 ARG CALIBRE_RELEASE
-LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="aptalca"
+LABEL build_version="zaroz.me version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+LABEL maintainer="zaroz"
 
 ENV APPNAME="Calibre" UMASK_SET="022"
 
